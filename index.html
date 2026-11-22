@@ -256,7 +256,7 @@ body.modal-open{overflow:hidden}
           <a class="btn-primary" href="#dex">Explore the dex
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
-          <span class="hero-stats"><b id="breedCount">04</b> breeds indexed</span>
+          <span class="hero-stats"><b id="breedCount">05</b> breeds indexed</span>
         </div>
       </div>
       <div class="hero-poster">
@@ -267,7 +267,7 @@ body.modal-open{overflow:hidden}
 
     <section class="dex-section" id="dex">
       <div class="section-head">
-        <h2 class="section-title">The Dex <span id="dexRange">· 001—004</span></h2>
+        <h2 class="section-title">The Dex <span id="dexRange">· 001—005</span></h2>
         <div class="search-wrap" id="searchWrap">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.2-3.2"></path></svg>
           <input id="dogSearch" class="search-input" type="search" placeholder="Search by name, number or type…" autocomplete="off" spellcheck="false" aria-label="Search dogs by name, number or type">
@@ -282,12 +282,12 @@ body.modal-open{overflow:hidden}
         <div class="type-filters" id="typeFilters" role="group" aria-label="Filter by dog type"></div>
         <button class="list-btn" id="openList" type="button" aria-haspopup="dialog" aria-controls="listModal">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
-          Full list <span class="count" id="listCount">4</span>
+          Full list <span class="count" id="listCount">5</span>
         </button>
       </div>
 
       <div class="search-meta">
-        <span id="resultCount" aria-live="polite">Showing <strong>4</strong> of <strong>4</strong> entries</span>
+        <span id="resultCount" aria-live="polite">Showing <strong>5</strong> of <strong>5</strong> entries</span>
         <span class="active-filter" id="activeFilter"></span>
       </div>
 
@@ -308,13 +308,10 @@ body.modal-open{overflow:hidden}
           <div class="card-media"><img src="./004 CHIHUAHUA.png" alt="No. 004 Chihuahua dex page" loading="lazy"><span class="card-no">#004</span><span class="card-group">Toy</span></div>
           <div class="card-body"><h3>Chihuahua</h3><p>Toy · Small</p><span class="card-cta">View entry <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
         </a>
-
-        <!-- NEXT ENTRY — no. 005 SHIBA. Upload "005 SHIBA.png", then delete the two comment lines around this card.
         <a class="dog-card" data-name="Shiba Inu" data-no="005" data-types="Ancient Housedog" data-search="005 shiba inu shiba ancient housedog japan small dog" data-img="./005 SHIBA.png" href="./005%20SHIBA.png" aria-label="Open Shiba Inu entry">
           <div class="card-media"><img src="./005 SHIBA.png" alt="No. 005 Shiba Inu dex page" loading="lazy"><span class="card-no">#005</span><span class="card-group">Ancient</span></div>
           <div class="card-body"><h3>Shiba Inu</h3><p>Ancient + Housedog · Small</p><span class="card-cta">View entry <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
         </a>
-        -->
       </div>
 
       <div class="empty-state" id="emptyState">
@@ -346,7 +343,7 @@ body.modal-open{overflow:hidden}
 <div class="list-modal" id="listModal" role="dialog" aria-modal="true" aria-labelledby="listTitle" aria-hidden="true">
   <div class="list-panel">
     <div class="list-head">
-      <div><h3 id="listTitle">FULL DEX LIST</h3><p>Entries <span id="listRange">001—004</span> · click a row to open it</p></div>
+      <div><h3 id="listTitle">FULL DEX LIST</h3><p>Entries <span id="listRange">001—005</span> · click a row to open it</p></div>
       <button class="list-close" id="listClose" type="button" aria-label="Close full list"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="list-body" id="listBody"></div>
@@ -469,4 +466,5 @@ setCounts();buildTypeChips();setActiveType("all");buildFullList();applyFilter(""
 </script>
 </body>
 </html>
-```
+
+Who's up next for **#006**?
